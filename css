@@ -1,0 +1,29 @@
+@import url['https://fonts.googleapis.com/css?family=Pacifico'];
+@import url['https://fonts.googleapis.com/css?family=Anton'];
+
+table.inputPanel tbody tbody tr:first-of-type {
+
+/* Font options */
+'Pacifico', cursive;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+40px;
+
+/* Chrome, Safari, Opera */
+-webkit-animation: rainbow 20s infinite; 
+
+@-webkit-keyframes rainbow{
+0%{color: #FF0000;} 
+8%{color: #FF8000;} 
+15%{color: #FFFF00;}
+23%{color: #80FF00;}
+31%{color: #00FF00;}
+38%{color: #00FF80;}
+46%{color: #00FFFF;}
+54%{color: #0080FF;}
+62%{color: #4040FF;}
+69%{color: #8000FF;}
+77%{color: #FF00FF;}
+85%{color: #FF80FF;}
+92%{color:#FF0080;}
+100%{color:#FF0000}
+}
